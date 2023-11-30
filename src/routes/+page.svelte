@@ -19,4 +19,7 @@
 
 <div class="w-[98%] max-w-[1600px] mx-auto">
     <CollapsibleAssignmentMenu title="Open Assignments" isEnabled={true} data={automarkdata.open_assignments.assignments}/>
+    <CollapsibleAssignmentMenu title="Extra Assignments" isEnabled={false} data={automarkdata.open_assignments.assignments}/>
+    <CollapsibleAssignmentMenu title="Closed Assignments" isEnabled={false} data={automarkdata.closed_assignments.assignments}/>
+
 </div>

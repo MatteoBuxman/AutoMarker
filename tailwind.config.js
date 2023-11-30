@@ -5,10 +5,12 @@ export default {
     extend: {
       colors:{
         darkblue: "#00243A",
+        darkbluehover: "#003f66",
         lightblue: "#0090CF",
-        lightbluehover: "#4dA5C4",
+        lightbluehover: "#0081b8",
         backgroundgray: "#F6F7F8",
         backgrounddarkgray: "#D9D9D9",
+        backgrounddarkgrayhover:"#bfbfbf",
         success: "#179708",
         danger: "#B10000",
       }
