@@ -3,9 +3,9 @@
     import automarkdata from  "$lib/automark_home.json";
 </script>
 
-<nav class="w-full bg-darkblue px-4 py-2 rounded-b-xl text-white">
+<nav class="w-full bg-darkblue px-4 py-2 rounded-b-xl text-white font-main">
     <div class="flex justify-between items-center max-w-[1600px] mx-auto">
-        <div class="flex items-center justify-between w-1/4 min-w-[280px]">
+        <div class="flex items-center justify-between w-[20%] min-w-[280px]">
             <img src="uct_logo.svg" alt="University logo" class="w-[65px]">
             <h1 class="font-bold text-4xl">Automarker</h1>
         </div>

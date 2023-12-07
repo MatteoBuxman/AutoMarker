@@ -16,7 +16,7 @@
       easing: cubicInOut,
   });
 
-  let submitFile = false;
+  
   
   function toggleMenu(){
 
@@ -31,6 +31,8 @@
 
   let buttonIndex = null; //Variable to store the index of the button that was clicked.
 
+  let submitFile = false;
+
   function toggleSubmitFile(index){
       buttonIndex = index;
       submitFile = !submitFile;
@@ -39,7 +41,7 @@
 </script>
 
 {#if submitFile}
-    <SubmitNewFile on:click={toggleSubmitFile} data={data[buttonIndex]}/>
+    <SubmitNewFile on:click={() => submitFile = false} data={data[buttonIndex]}/>
 {/if}
 
 <section class="bg-backgroundgray rounded-lg py-4 px-4 m-3 flex flex-col">

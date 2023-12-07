@@ -13,7 +13,10 @@ export default {
         backgrounddarkgrayhover:"#bfbfbf",
         success: "#179708",
         danger: "#B10000",
-      }
+      },
+      fontFamily:{
+        main: ['Chakra Petch', 'sans-serif'],
+      },
     }
   },
   plugins: []
