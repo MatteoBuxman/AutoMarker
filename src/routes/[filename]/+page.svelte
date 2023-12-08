@@ -18,7 +18,7 @@
 <div class="w-[98%] h-[1px] bg-backgrounddarkgray mt-3 mx-auto"></div>
 
 <section class="w-11/12 mx-auto mt-3">
-  <MarkFeedbackCarousel/>
+  <MarkFeedbackCarousel number={1} data_arr={[1,2,3,4,5,6,7]}/>
 </section>
 
 </div>
