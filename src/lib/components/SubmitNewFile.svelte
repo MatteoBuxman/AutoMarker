@@ -19,7 +19,7 @@
     
 </script>
 
-<div transition:slide={{duration:350, easing: cubicOut}} class="fixed top-0 bottom-0 left-0 right-0 bg-white flex items-center justify-center z-50">
+<div transition:slide={{duration:350, easing: cubicOut}} class="fixed top-0 bottom-0 left-0 right-0 bg-white flex items-center justify-center z-40">
     <div class="m-4 px-6 py-4 bg-backgroundgray rounded-lg w-[95%]">
         <div class="flex justify-between items-center">
             <h1 class="font-bold text-xl">{data.name}</h1>

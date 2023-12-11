@@ -1,0 +1,183 @@
+{
+    "assignmentResults": [
+      {
+        "questionNumber": 1,
+        "trials": [
+          {
+            "trialNumber": 1,
+            "status": "Output correct",
+            "status_bool": true,
+            "points": 100
+          },
+          {
+            "trialNumber": 2,
+            "status": "Output correct",
+            "status_bool": true,
+            "points": 100
+          },
+          {
+            "trialNumber": 3,
+            "status": "Output correct",
+            "status_bool": true,
+            "points": 100
+          },
+          {
+            "trialNumber": 4,
+            "status": "Output correct",
+            "status_bool": true,
+            "points": 100
+          }
+        ],
+        "totalScore": 15,
+        "allTrialsCorrect": true
+      },
+      {
+        "questionNumber": 2,
+        "trials": [
+          {
+            "trialNumber": 1,
+            "status": "Output correct",
+            "status_bool": true,
+            "points": 100
+          }
+        ],
+        "totalScore": 5,
+        "allTrialsCorrect": true
+      },
+      {
+        "questionNumber": 3,
+        "trials": [
+          {
+            "trialNumber": 1,
+            "status": "Output correct",
+            "status_bool": true,
+            "points": 100
+          }
+        ],
+        "totalScore": 10,
+        "allTrialsCorrect": true
+      },
+      {
+        "questionNumber": 4,
+        "trials": [
+          {
+            "trialNumber": 1,
+            "status": "Output correct",
+            "status_bool": true,
+            "points": 5
+          },
+          {
+            "trialNumber": 2,
+            "status": "Output correct",
+            "status_bool": true,
+            "points": 5
+          },
+          {
+            "trialNumber": 3,
+            "status": "Output correct",
+            "status_bool": true,
+            "points": 5
+          },
+          {
+            "trialNumber": 4,
+            "status": "Output correct",
+            "status_bool": true,
+            "points": 5
+          },
+          {
+            "trialNumber": 5,
+            "status": "Output correct",
+            "status_bool": true,
+            "points": 5
+          },
+          {
+            "trialNumber": 6,
+            "status": "Output correct",
+            "status_bool": true,
+            "points": 4
+          },
+          {
+            "trialNumber": 7,
+            "status": "Output correct",
+            "status_bool": true,
+            "points": 4
+          },
+          {
+            "trialNumber": 8,
+            "status": "Output correct",
+            "status_bool": true,
+            "points": 4
+          },
+          {
+            "trialNumber": 9,
+            "status": "Output correct",
+            "status_bool": true,
+            "points": 4
+          },
+          {
+            "trialNumber": 10,
+            "status": "Output correct",
+            "status_bool": true,
+            "points": 4
+          }
+        ],
+        "totalScore": 45,
+        "allTrialsCorrect": true
+      },
+      {
+        "questionNumber": 5,
+        "trials": [
+          {
+            "trialNumber": 1,
+            "status": "Output not correct",
+            "status_bool": false,
+            "points": 0,
+            "expectedOutput": [
+              "[13:15:03, CA 976-543]",
+              "[13:21:47, BCD 123 MP]",
+              "[13:35:50, SNH 582 GP]",
+              "[15:23:02, ND 123-456]",
+              "[16:09:06, SNH 582 GP]",
+              "[16:48:16, AB 13 CD GP]",
+              "[17:01:59, SNH 582 GP]",
+              "[18:18:10, ND 123-456]",
+              "[19:13:20, ND 123-456]"
+            ],
+            "actualOutput": [
+              "[13:15:03, CA 976-543]",
+              "[13:21:47, BCD 123 MP]",
+              "[13:35:50, SNH 582 GP]",
+              "[15:23:02, ND 123-456]",
+              "[16:48:16, AB 13 CD GP]",
+              "[18:18:10, ND 123-456]",
+              "[19:13:20, ND 123-456]"
+            ],
+            "inputSupplied": [
+              "construct",
+              "record CA 976-543, 13:15:03",
+              "record BCD 123 MP, 13:21:47",
+              "record ND 123-456, 15:23:02",
+              "record AB 13 CD GP, 16:48:16",
+              "record SNH 582 GP, 13:35:50",
+              "record SNH 582 GP, 16:09:06",
+              "record ND 123-456, 18:18:10",
+              "record SNH 582 GP, 17:01:59",
+              "record ND 123-456, 19:13:20",
+              "iterator",
+              "Q"
+            ],
+            "differences": [
+              "5d4",
+              "< [16:09:06, SNH 582 GP]",
+              "7d5",
+              "< [17:01:59, SNH 582 GP]"
+            ]
+          }
+        ],
+        "totalScore": 0,
+        "allTrialsCorrect": false
+      }
+    ],
+    "totalMarks": 83
+  }
+  

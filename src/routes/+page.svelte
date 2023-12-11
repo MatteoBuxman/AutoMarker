@@ -1,6 +1,6 @@
 <script>
-    import CollapsibleAssignmentMenu from "$lib/CollapsibleAssignmentMenu.svelte";
-    import automarkdata from  "$lib/automark_home.json";
+    import CollapsibleAssignmentMenu from "$lib/components/CollapsibleAssignmentMenu.svelte";
+    import automarkdata from  "$lib/json/automark_home.json";
 </script>
 
 <nav class="w-full bg-darkblue px-4 py-2 rounded-b-xl text-white font-main">

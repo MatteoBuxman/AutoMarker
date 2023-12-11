@@ -1,8 +1,8 @@
 <script>
 
-  import SubmitNewFile from './SubmitNewFile.svelte';
+  import SubmitNewFile from '$lib/components/SubmitNewFile.svelte';
 
-  import {formatDueDate} from '$lib/formatduedate.js';
+  import {formatDueDate} from '$lib/logic/formatduedate.js';
   import { tweened } from 'svelte/motion';
   import {cubicInOut} from 'svelte/easing';
   import { slide } from 'svelte/transition';
