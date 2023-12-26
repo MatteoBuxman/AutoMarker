@@ -1,10 +1,6 @@
 <script>
     export let trial;
     import store from '$lib/logic/further_information_store.js'
-
-    let further_information = false;
-
-
 </script>
 
 <div on:click={()=> store.set(trial)} class="w-[97px] h-[97px] bg-white rounded-lg mr-3 p-3 flex flex-col shrink-0 items-center hover:scale-105 transition-transform cursor-pointer">

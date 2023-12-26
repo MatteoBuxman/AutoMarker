@@ -8,7 +8,7 @@
   let container_width;
   let translate_amount = spring(0, {
       stiffness: 0.02,
-      damping: 0.15,
+      damping: 0.25,
   });
 
   let show_buttons = true;
@@ -21,6 +21,22 @@
         }else{
         show_buttons = false;
         translate_amount.set(0);
+        }
+    }
+
+    //Function to handle the scroll of the carousel, and to calculate when there should be no more scroll allowed.
+    function translateCarousel(direction){
+        
+
+        switch(direction){
+            case 'left':
+                if($translate_amount === 0) break;
+                $translate_amount += container_width;
+            break;
+            case 'right':
+                if(false) return;
+                $translate_amount -= container_width;
+            break;
         }
     }
 </script>
@@ -41,7 +57,7 @@
 </div>
 
         {#if show_buttons}
-            <button on:click={()=> $translate_amount += container_width} transition:fade={{duration:150}} class=" mr-1 font-bold text-xl py-5 p-3 bg-backgrounddarkgray/[0.3] hover:bg-backgrounddarkgray/[1] transition-colors  z-40 rounded-r-lg">&#8592;</button>
+            <button on:click={()=> translateCarousel('left')} transition:fade={{duration:150}} class=" mr-1 font-bold text-xl py-5 p-3 bg-backgrounddarkgray/[0.3] hover:bg-backgrounddarkgray/[1] transition-colors  z-40 rounded-r-lg">&#8592;</button>
         {/if}
     
     <div class="flex p-3  items-center overflow-x-hidden" bind:clientWidth={container_width}>
@@ -55,7 +71,7 @@
     </div>
     </div>
         {#if show_buttons}
-            <button on:click={()=> $translate_amount -= container_width} transition:fade={{duration:150}} class="ml-1 font-bold text-lg py-5 p-3 bg-backgrounddarkgray/[0.3] hover:bg-backgrounddarkgray/[1] transition-colors  z-40 rounded-l-lg">&#8594;</button>
+            <button on:click={()=> translateCarousel('right')} transition:fade={{duration:150}} class="ml-1 font-bold text-lg py-5 p-3 bg-backgrounddarkgray/[0.3] hover:bg-backgrounddarkgray/[1] transition-colors  z-40 rounded-l-lg">&#8594;</button>
         {/if}
 
 </div>

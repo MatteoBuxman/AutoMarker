@@ -13,14 +13,19 @@
 
 <div class="w-[98%] mx-auto rounded-lg p-3 bg-backgroundgray mt-3 font-main">
     <section class="flex items-center justify-between w-11/12 mx-auto">
- <div class="w-1/4 min-w-[400px] max-w-[600px] flex justify-between">
+ <div class="w-1/3 min-w-[400px] max-w-[600px] flex justify-between items-center">
     <h1 class="font-bold text-3xl ">{data.filename}</h1>
-    <div class="flex items-center">
-      <h2 class="text-lg"><strong>Attempt No.</strong> 6</h2>
-    </div>
+   
+      <h2 class="text-lg mr-3"><strong>Attempt No.</strong> 6</h2>
+    
     
 </div>
-<button class="py-2 px-4 bg-lightblue hover:bg-lightbluehover transition-colors rounded text-white font-bold">Exit</button>
+{#if $assignment_data.totalMarks}
+    <h2 class="text-lg font-bold"> {$assignment_data.totalMarks} % </h2>
+    {:else}
+    <h2 class="font-bold text-lg">Marking Project</h2>
+{/if}
+    <a href="/" class="py-2 px-4 bg-lightblue hover:bg-lightbluehover transition-colors rounded text-white font-bold">Exit</a>
 </section>
 
 <div class="w-[98%] h-[1px] bg-backgrounddarkgray mt-3 mx-auto"></div>
@@ -32,7 +37,7 @@
     {/each}
 
     {#if !$assignment_data.totalMarks}
-        <h1 class="mx-auto font-bold">Loading Next Question</h1>
+        <img src="/loading.svg" alt="loading-icon" class="mx-auto">
     {/if}
 </section>
 

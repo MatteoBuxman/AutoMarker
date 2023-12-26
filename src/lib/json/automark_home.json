@@ -1,122 +1,204 @@
 {
-    "open_assignments": {
-      "amount": 6,
-      "assignments": [
-        {
-          "index": 0,
-          "name": "Assignment 10: File Handling",
-          "due_date": "2023-11-01T15:45:00",
-          "attempts": 2,
-          "max_attempts": 50,
-          "files": [
-            "BXMMAT002.zip [56] 2023-11-01 14:30:22",
-            "BXMMAT002.zip [72] 2023-11-01 15:10:45"
-          ],
-          "best_attempt": 49
-        },
-        {
-          "index": 1,
-          "name": "Assignment 11: GUI Development",
-          "due_date": "2023-11-10T14:30:00",
-          "attempts": 3,
-          "max_attempts": 50,
-          "files": [
-            "BXMMAT002.zip [63] 2023-11-08 16:20:11",
-            "BXMMAT002.zip [85] 2023-11-09 13:45:30",
-            "BXMMAT002.zip [92] 2023-11-10 12:55:14"
-          ],
-          "best_attempt": 92
-        },
-        {
-          "index": 2,
-          "name": "Practical Test Three Monday 3 pm",
-          "due_date": "2023-11-20T15:00:00",
-          "attempts": 0,
-          "max_attempts": 50,
-          "files": [
-            "BXMMAT002.zip [78] 2023-11-18 14:22:09",
-            "BXMMAT002.zip [80] 2023-11-19 13:10:27"
-          ],
-          "best_attempt": 80
-        },
-        {
-          "index": 3,
-          "name": "Assignment 12: Database Design",
-          "due_date": "2023-11-25T17:30:00",
-          "attempts": 0,
-          "max_attempts": 50,
-          "files": [
-            "BXMMAT002.zip [67] 2023-11-23 16:45:18",
-            "BXMMAT002.zip [89] 2023-11-25 16:15:02",
-            "BXMMAT002.zip [95] 2023-11-25 17:10:37"
-          ],
-          "best_attempt": 63
-        },
-        {
-          "index": 4,
-          "name": "Assignment 13: Multithreading",
-          "due_date": "2023-12-05T08:15:00",
-          "attempts": 2,
-          "max_attempts": 50,
-          "files": [
-            "BXMMAT002.zip [72] 2023-12-03 15:30:45",
-            "BXMMAT002.zip [84] 2023-12-04 14:40:21"
-          ],
-          "best_attempt": 79
-        },
-        {
-          "index": 5,
-          "name": "Practical Test Four Wednesday 2 pm",
-          "due_date": "2023-12-15T14:00:00",
-          "attempts": 2,
-          "max_attempts": 50,
-          "files": [
-            "BXMMAT002.zip [60] 2023-12-13 13:55:10",
-            "BXMMAT002.zip [78] 2023-12-14 12:45:29"
-          ],
-          "best_attempt": 56
-        }
-      ]
-    },
-    "closed_assignments": {
-      "amount": 3,
-      "assignments": [
-        {
-          "index": 0,
-          "name": "Practical Test Two Friday 4 pm",
-          "due_date": "2023-10-13T17:30:00",
-          "attempts": 2,
-          "max_attempts": 50,
-          "files": [
-            "BXMMAT001.zip [45] 2023-10-09 14:38:11",
-            "BXMMAT001.zip [75] 2023-10-09 14:44:03"
-          ]
-        },
-        {
-          "index": 1,
-          "name": "Practical Test Two Resit Friday 4 pm",
-          "due_date": "2023-10-20T17:10:00",
-          "attempts": 3,
-          "max_attempts": 50,
-          "files": [
-            "BXMMAT001.zip [67] 2023-10-09 16:38:11",
-            "BXMMAT001.zip [74] 2023-10-10 14:42:03",
-            "BXMMAT001.zip [78] 2023-10-12 16:31:06"
-          ]
-        },
-        {
-          "index": 2,
-          "name": "Assignment 9: Inheritance and Polymorphism",
-          "due_date": "2023-10-02T19:00:00",
-          "attempts": 5,
-          "max_attempts": 50,
-          "files": [
-            "BXMMAT001.zip [67] 2023-10-09 16:38:11",
-            "BXMMAT001.zip [74] 2023-10-10 14:42:03",
-            "BXMMAT001.zip [78] 2023-10-12 16:31:06"
-          ]
-        }
-      ]
-    }
+  "open_assignments": {
+    "amount": 2,
+    "assignments": [
+      {
+        "index": 0,
+        "name": "Assignment 14: Networking Basics",
+        "due_date": "2023-12-20T16:30:00",
+        "attempts": 1,
+        "max_attempts": 50,
+        "files": [
+          "BXMMAT002.zip [10] 2023-12-18 15:20:11"
+        ],
+        "best_attempt": 10
+      },
+      {
+        "index": 1,
+        "name": "Assignment 15: Web Development",
+        "due_date": "2023-12-30T13:15:00",
+        "attempts": 2,
+        "max_attempts": 50,
+        "files": [
+          "BXMMAT002.zip [81] 2023-12-28 12:40:30",
+          "BXMMAT002.zip [82] 2023-12-29 14:55:14"
+        ],
+        "best_attempt": 81
+      }
+    ]
+  },
+  "closed_assignments": {
+    "amount": 10,
+    "assignments": [
+      {
+        "index": 0,
+        "name": "Practical Test Two Friday 4 pm",
+        "due_date": "2023-10-13T17:30:00",
+        "attempts": 2,
+        "max_attempts": 50,
+        "files": [
+          "BXMMAT001.zip [1] 2023-10-09 14:38:11",
+          "BXMMAT001.zip [2] 2023-10-09 14:44:03"
+        ],
+        "best_attempt": 1
+      },
+      {
+        "index": 1,
+        "name": "Practical Test Two Resit Friday 4 pm",
+        "due_date": "2023-10-20T17:10:00",
+        "attempts": 3,
+        "max_attempts": 50,
+        "files": [
+          "BXMMAT001.zip [2] 2023-10-09 16:38:11",
+          "BXMMAT001.zip [3] 2023-10-10 14:42:03",
+          "BXMMAT001.zip [4] 2023-10-12 16:31:06"
+        ],
+        "best_attempt": 2
+      },
+      {
+        "index": 2,
+        "name": "Assignment 9: Inheritance and Polymorphism",
+        "due_date": "2023-10-02T19:00:00",
+        "attempts": 5,
+        "max_attempts": 50,
+        "files": [
+          "BXMMAT001.zip [3] 2023-10-09 16:38:11",
+          "BXMMAT001.zip [4] 2023-10-10 14:42:03",
+          "BXMMAT001.zip [5] 2023-10-12 16:31:06"
+        ],
+        "best_attempt": 3
+      },
+      {
+        "index": 3,
+        "name": "Assignment 12: Database Design",
+        "due_date": "2023-11-25T17:30:00",
+        "attempts": 0,
+        "max_attempts": 50,
+        "files": [
+          "BXMMAT002.zip [4] 2023-11-23 16:45:18",
+          "BXMMAT002.zip [5] 2023-11-25 16:15:02",
+          "BXMMAT002.zip [6] 2023-11-25 17:10:37"
+        ],
+        "best_attempt": 4
+      },
+      {
+        "index": 4,
+        "name": "Assignment 13: Multithreading",
+        "due_date": "2023-12-05T08:15:00",
+        "attempts": 2,
+        "max_attempts": 50,
+        "files": [
+          "BXMMAT002.zip [5] 2023-12-03 15:30:45",
+          "BXMMAT002.zip [6] 2023-12-04 14:40:21"
+        ],
+        "best_attempt": 5
+      },
+      {
+        "index": 5,
+        "name": "Practical Test Four Wednesday 2 pm",
+        "due_date": "2023-12-15T14:00:00",
+        "attempts": 2,
+        "max_attempts": 50,
+        "files": [
+          "BXMMAT002.zip [6] 2023-12-13 13:55:10",
+          "BXMMAT002.zip [7] 2023-12-14 12:45:29"
+        ],
+        "best_attempt": 6
+      },
+      {
+        "index": 6,
+        "name": "Extra Closed Assignment 1",
+        "due_date": "2024-01-02T16:30:00",
+        "attempts": 1,
+        "max_attempts": 50,
+        "files": [
+          "BXMMAT003.zip [7] 2023-12-31 15:20:11"
+        ],
+        "best_attempt": 7
+      },
+      {
+        "index": 7,
+        "name": "Extra Closed Assignment 2",
+        "due_date": "2024-01-10T14:30:00",
+        "attempts": 2,
+        "max_attempts": 50,
+        "files": [
+          "BXMMAT003.zip [8] 2024-01-08 12:40:30",
+          "BXMMAT003.zip [9] 2024-01-09 14:55:14"
+        ],
+        "best_attempt": 8
+      },
+      {
+        "index": 8,
+        "name": "Extra Closed Assignment 3",
+        "due_date": "2024-01-20T15:00:00",
+        "attempts": 0,
+        "max_attempts": 50,
+        "files": [
+          "BXMMAT003.zip [9] 2024-01-18 14:22:09"
+        ],
+        "best_attempt": 9
+      },
+      {
+        "index": 9,
+        "name": "Extra Closed Assignment 4",
+        "due_date": "2024-01-25T17:30:00",
+        "attempts": 0,
+        "max_attempts": 50,
+        "files": [
+          "BXMMAT003.zip [10] 2024-01-23 16:45:18"
+        ],
+        "best_attempt": 10
+      }
+    ]
+  },
+  "extra_assignments": {
+    "amount": 4,
+    "assignments": [
+      {
+        "index": 0,
+        "name": "Extra Assignment 1",
+        "due_date": "2024-02-01T16:30:00",
+        "attempts": 0,
+        "max_attempts": 50,
+        "files": [
+          "BXMMAT004.zip [11] 2024-01-31 15:20:11"
+        ],
+        "best_attempt": 11
+      },
+      {
+        "index": 1,
+        "name": "Extra Assignment 2",
+        "due_date": "2024-02-10T14:30:00",
+        "attempts": 0,
+        "max_attempts": 50,
+        "files": [
+          "BXMMAT004.zip [12] 2024-02-08 12:40:30"
+        ],
+        "best_attempt": 12
+      },
+      {
+        "index": 2,
+        "name": "Extra Assignment 3",
+        "due_date": "2024-02-20T15:00:00",
+        "attempts": 0,
+        "max_attempts": 50,
+        "files": [
+          "BXMMAT004.zip [13] 2024-02-18 14:22:09"
+        ],
+        "best_attempt": 13
+      },
+      {
+        "index": 3,
+        "name": "Extra Assignment 4",
+        "due_date": "2024-02-25T17:30:00",
+        "attempts": 0,
+        "max_attempts": 50,
+        "files": [
+          "BXMMAT004.zip [14] 2024-02-23 16:45:18"
+        ],
+        "best_attempt": 14
+      }
+    ]
   }
-  
+}

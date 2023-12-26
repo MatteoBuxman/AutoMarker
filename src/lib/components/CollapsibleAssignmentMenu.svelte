@@ -10,6 +10,7 @@
   export let title;
   export let data; //An array of objects that holds the data for each menu item (title, due date, best mark)
   export let isEnabled;
+  export let isClosed;
 
   let angle = tweened(isEnabled ? 180 : 0, {
       duration: 200,
@@ -57,7 +58,9 @@
                     <h1 class="font-semibold text-xl col-span-3">{assignment.name}</h1>
                     <h1 class="col-span-2"><strong>Due:</strong> {formatDueDate(assignment.due_date)}</h1>
                     <h1 class="">Best Attempt: <strong>{assignment.best_attempt}%</strong></h1>
-                    <button on:click={() => toggleSubmitFile(assignment.index)} class="col-span-2 bg-darkblue w-[50%] mx-auto text-white font-bold p-2 rounded hover:bg-darkbluehover transition-colors">Submit</button>
+                    {#if !isClosed}
+                        <button on:click={() => toggleSubmitFile(assignment.index)} class="col-span-2 bg-darkblue w-[50%] mx-auto text-white font-bold p-2 rounded hover:bg-darkbluehover transition-colors">Submit</button>
+                    {/if}
                 </div>
             {/each}
         </div>
