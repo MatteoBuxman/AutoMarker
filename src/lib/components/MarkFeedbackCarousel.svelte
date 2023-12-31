@@ -30,7 +30,7 @@
 
         switch(direction){
             case 'left':
-                if($translate_amount === 0) break;
+                if($translate_amount === 0 ) break;
                 $translate_amount += container_width;
             break;
             case 'right':

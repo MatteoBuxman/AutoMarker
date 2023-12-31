@@ -8,6 +8,17 @@
     export let data;
 
     let showUploadedFiles = false;
+    let buttonDisabled = true;
+
+    function handleFileChoice(e){
+        
+        if(e.target.files.length !== 0){
+            buttonDisabled = false;
+        }
+        else{
+            buttonDisabled = true;
+        }
+    }
 
 </script>
 
@@ -33,8 +44,8 @@
             <h1 class="mb-4 font-bold">OR</h1>
             <form class="flex flex-col" method="post" use:enhance>
 
-                <input accept=".zip" type="file" name="file" class="py-3 px-6 mb-2 bg-backgrounddarkgray hover:bg-backgrounddarkgrayhover transition-colors rounded-lg cursor-pointer"/>
-                <button class="col-span-2 bg-darkblue w-[50%] mx-auto text-white font-bold p-2 rounded hover:bg-darkbluehover transition-colors" type="submit">Submit</button>
+                <input on:change={handleFileChoice} accept=".zip" type="file" name="file" class="py-3 px-6 mb-2 bg-backgrounddarkgray hover:bg-backgrounddarkgrayhover transition-colors rounded-lg cursor-pointer"/>
+                <button disabled={buttonDisabled} class="col-span-2 bg-darkblue w-[50%] mx-auto text-white font-bold p-2 rounded hover:bg-darkbluehover transition-colors" type="submit">Submit</button>
 
             </form>
         </div>
