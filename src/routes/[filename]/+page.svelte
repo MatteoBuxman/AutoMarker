@@ -13,7 +13,7 @@
 
 <div class="w-[98%] mx-auto rounded-lg p-3 bg-backgroundgray mt-3 font-main">
     <section class="flex items-center justify-between w-11/12 mx-auto">
- <div class="w-1/3 min-w-[400px] max-w-[600px] flex justify-between items-center">
+ <div class="w-1/2 min-w-[500px] max-w-[600px] flex justify-between items-center">
     <h1 class="font-bold text-3xl ">{data.filename}</h1>
    
       <h2 class="text-lg mr-3"><strong>Attempt No.</strong> 6</h2>
@@ -21,9 +21,9 @@
     
 </div>
 {#if $assignment_data.totalMarks}
-    <h2 class="text-lg font-bold"> {$assignment_data.totalMarks} % </h2>
+    <h2 class="text-lg font-bold hidden md:block"> {$assignment_data.totalMarks} % </h2>
     {:else}
-    <h2 class="font-bold text-lg">Marking Project</h2>
+    <h2 class="font-bold text-lg hidden md:block">Marking Project</h2>
 {/if}
     <a href="/" class="py-2 px-4 bg-lightblue hover:bg-lightbluehover transition-colors rounded text-white font-bold">Exit</a>
 </section>
